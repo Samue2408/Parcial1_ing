@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #F1E9DB;
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("../img/candle-header.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 20px 0;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 1);
+}
+
+header h1 {
+    color: #F1E9DB;
+    margin: 0;
+}
+
+header p {
+    color: #F1E9DB  ;
+}
+
+.intro {
+    margin: 100px   ;
+    display: flex;
+    text-align: justify;
+    padding: 50px 0;    
+}
+
+.intro h2 {
+    color: #333;
+}
+
+.intro div {
+    max-width: 800px;
+}
+
+.intro img{
+    margin-left: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.catalog {
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.product {
+    
+    padding: 40px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    color: #F1E9DB;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 1);
+    
+}
+
+.product a {     
+    margin-top: 0;
+    font-size: smaller;   
+    text-decoration: none;
+    color: #F1E9DB;
+}
+.product h5{
+    font-weight: 900;
+}
+
+
+.product p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ .product h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+ }
+
+.size {    
+    height: 500px;
+    width: 700px;   
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.75); 
+}
+
+.price {
+    font-size: large;
+    font-weight: 750;
+    color: #5DB7DE;
+}
+
+#contactanos {
+    padding: 50px;
+}
+
+#exampleInputPassword1 {
+    height: 300px;
+}
